@@ -1,0 +1,232 @@
+@font-face {
+    font-family: earthFont;
+    src: url(../fonts/earthorbiterlaser.ttf)
+}
+
+body {
+    background-image: url(../images/MilkyWayArchBG.jpg);
+    background-size: initial;
+}
+
+#sunSpot {
+    border: 5px solid red;
+}
+
+#confirmBtn {
+    font-family: earthFont;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: burlywood;
+    border: none;
+}
+
+#li1, #li2, #li3, #li4 {
+font-size: 20px;
+font-family: 'Century Gothic';
+
+}
+
+h1 {
+    margin-top: 200px;
+    padding-bottom: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    color: rebeccapurple;
+    font-family: earthFont;
+    font-size: 55px;
+}
+
+#options {
+    text-align: center;
+}
+
+#welcomeDiv {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    vertical-align: central;
+    display: none;
+}
+
+#rightInfo {
+    vertical-align: middle;
+    padding-left: 120px; 
+    padding-top: 135px;
+    width: 310px;
+    font-size: 19px;
+    font-family: 'Century Gothic';
+    font-weight: bold;
+    color: oldlace;
+}
+
+#picDiv {
+    width: 210px;
+    height: 210px;
+    border: 3px solid blue;
+    background-color: black;
+}
+
+#name {
+    padding-bottom: 10px;
+}
+
+#dist {
+    padding-bottom: 10px;
+}
+
+#natsat {
+    padding-bottom: 10px;
+}
+
+#mass {
+    padding-bottom: 10px;
+}
+
+#leftInfo {
+    padding-top: 150px;
+    width: 200px;
+    margin-right: 45px;
+}
+
+#quizQuestion {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 132.55px;
+    font-size: 30px;
+    font-family: 'Century Gothic';
+    background-color: rgba(178, 154, 154, 0.64);
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 3%;
+    padding: 0px;
+}
+
+#quizAnswers {
+    display: none;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0,0,0,0);
+}
+
+#solarSystem {
+    display: none;
+    border:  3px solid red;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.alert {
+    color: firebrick;
+    font-family: 'Century Gothic';
+    font-size: 20px;
+    background-color: darkgrey;
+    border: none;
+}
+
+.ul {
+   padding: 0px;
+}
+
+#questionNumber {
+    border: 2px solid purple;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: rgba(220, 210, 128, 0.42);
+    font-family: earthFont;
+    font-size: 35px;
+    text-align: center;
+}
+
+#quizDiv {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 500px;
+    font-size: 15px;
+    color: white;
+}
+
+#scoreLabel {
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'Century Gothic';
+    color: red;
+}
+
+#learnDiv {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+}
+
+.modal-title {
+    font-family: earthFont;
+}
+
+.modal-content {
+    top: 115px;
+}
+
+.backBtn {
+    display: block;
+    font-family: earthFont;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: azure;
+
+}
+
+#goBackButton2 {
+    display: none;
+}
+
+#divLearn {
+    font-size: 20px;
+    color: blue;
+    margin-right: 20px;
+    width: 100px;
+    font-family: earthFont;
+}
+
+#divQuiz {
+    font-size: 20px;
+    color: red;
+    margin-left: 20px;
+    width: 100px;
+    font-family: earthFont;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+input[type=radio] {
+  display: none;
+}
+input:checked + label {
+    background: red;
+}
+
+.answer {
+    width: 400px;
+    border: 1px solid lightblue;
+    border-radius : 5px;
+    text-align: center;
+  background-color: rgba(53, 53, 151, 0.58)
+}
